@@ -10,8 +10,6 @@ public class playerController : MonoBehaviour
 	private Rigidbody2D rb2d;
 	// Create public variable which can be used to set the speed at which the player moves
 	public float SpeedMultiplier;
-	// Create variable which will store SpeedMultiplier converted to whole number to divide by
-	private float speedMultiplierInternal;
 
 	// Use this for initialization, this is called when the object is loaded
 	void Start ()
@@ -23,9 +21,6 @@ public class playerController : MonoBehaviour
 	// FixedUpdate is called multiple times per frame, and is used for objects effected by physics
 	void FixedUpdate ()
 	{
-		// Converts the inputted speed multiplier to a a float appropriate for division
-		speedMultiplierInternal = 1 / SpeedMultiplier;
-		
 		// Stores the current horizontal input in the float moveX, using raw input to prevent overshooting
 		float moveX = Input.GetAxisRaw("Horizontal");
 		
@@ -36,7 +31,7 @@ public class playerController : MonoBehaviour
 		Vector2 movement = new Vector2(moveX,moveY);
 		
 		// Adds force to player to move them
-		rb2d.AddForce(movement / speedMultiplierInternal, ForceMode2D.Impulse);
+		rb2d.AddForce(movement / (1/SpeedMultiplier), ForceMode2D.Impulse);
 
 		// Locks the players rotation so they don't face the wrong direction
 		rb2d.rotation = 0;
