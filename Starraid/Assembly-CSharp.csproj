@@ -52,9 +52,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\playerController.cs" />
     <None Include="Assets\Sounds\SFX\Player\Player SFX Placeholder.txt" />
-    <None Include="Assets\Sounds\Music\Music Placeholder.txt" />
     <None Include="Assets\Sounds\SFX\Weapon\Weapon SFX Placeholder.txt" />
     <None Include="Assets\Prefabs\Enviroment\Enviroment Prefab Placeholder.txt" />
     <None Include="Assets\Sprites\Player\Player Sprite Placeholder.txt" />
@@ -62,9 +61,7 @@
     <None Include="Assets\Sprites\Friendlies\Freindly Sprite Placeholder.txt" />
     <None Include="Assets\Prefabs\Enemies\Enemies Prefab Placeholder.txt" />
     <None Include="Assets\Sprites\Enemies\Enemy Sprite Placeholder.txt" />
-    <None Include="Assets\Scripts\Script Placeholder.txt" />
     <None Include="Assets\Sounds\SFX\Enviroment\Enviroment SFX Placeholder.txt" />
-    <None Include="Assets\Sprites\Enviroment\Enviroment Sprite Placeholder.txt" />
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
