@@ -9,7 +9,7 @@ public class playerController : MonoBehaviour
 	// Create variable using which the rigidbody 2d of the player can be accessed
 	private Rigidbody2D rb2d;
 	// Create public variable which can be used to set the speed at which the player moves
-	public float SpeedMultiplier;
+	public float Speed;
 
 	// Use this for initialization, this is called when the object is loaded
 	void Start ()
@@ -27,11 +27,8 @@ public class playerController : MonoBehaviour
 		// Stores the current vertical input in the float moveY, using raw input to prevent overshooting
 		float moveY = Input.GetAxisRaw("Vertical");
 		
-		// Combines the two move values into movement, a vector2
-		Vector2 movement = new Vector2(moveX,moveY);
-		
-		// Adds force to player to move them
-		rb2d.AddForce(movement / (1/SpeedMultiplier), ForceMode2D.Impulse);
+		// Sets the velocity of the player to the two move values multiplied by the public variable "speed"
+		rb2d.velocity = new Vector2(moveX*Speed,moveY*Speed);
 
 		// Locks the players rotation so they don't face the wrong direction
 		rb2d.rotation = 0;
