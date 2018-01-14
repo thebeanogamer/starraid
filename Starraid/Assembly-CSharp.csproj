@@ -53,7 +53,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\cameraController.cs" />
+    <Compile Include="Assets\Scripts\loadSceneOnClick.cs" />
     <Compile Include="Assets\Scripts\playerController.cs" />
+    <Compile Include="Assets\Scripts\quitOnClick.cs" />
+    <Compile Include="Assets\Scripts\selectTargetOnInput.cs" />
     <None Include="Assets\Sounds\SFX\Player\Player SFX Placeholder.txt" />
     <None Include="Assets\Sounds\SFX\Weapon\Weapon SFX Placeholder.txt" />
     <None Include="Assets\Prefabs\Enviroment\Enviroment Prefab Placeholder.txt" />

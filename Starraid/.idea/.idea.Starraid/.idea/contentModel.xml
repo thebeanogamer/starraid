@@ -26,7 +26,10 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="cameraController.cs" t="Include" />
+          <e p="loadSceneOnClick.cs" t="Include" />
           <e p="playerController.cs" t="Include" />
+          <e p="quitOnClick.cs" t="Include" />
+          <e p="selectTargetOnInput.cs" t="Include" />
         </e>
         <e p="Sounds" t="Include">
           <e p="SFX" t="Include">
