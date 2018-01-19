@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 114526245008258490}
   - component: {fileID: 114270421530459316}
   m_Layer: 5
-  m_Name: Resolution Dropdown
+  m_Name: Dropdown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
