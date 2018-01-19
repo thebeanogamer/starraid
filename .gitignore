@@ -1,2 +1,2 @@
-
+# Prevents uploading of temporary files, which consume space and prevent committing whilst Unity is open
 Starraid/Temp/
