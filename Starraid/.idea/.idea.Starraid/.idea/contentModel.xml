@@ -29,6 +29,7 @@
           <e p="loadSceneOnClick.cs" t="Include" />
           <e p="playerController.cs" t="Include" />
           <e p="quitOnClick.cs" t="Include" />
+          <e p="resetMainMenu.cs" t="Include" />
           <e p="selectTargetOnInput.cs" t="Include" />
         </e>
         <e p="Sounds" t="Include">
