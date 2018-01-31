@@ -20,5 +20,12 @@ public class visualSettingsMenu : MonoBehaviour
 		dropdown.value = currentQuality;
 		
 	}
+
+	public void setVisualQuality()
+	{
+		Dropdown dropdown = GetComponent<Dropdown>();
+		
+		QualitySettings.SetQualityLevel(dropdown.value);
+	}
 	
 }
