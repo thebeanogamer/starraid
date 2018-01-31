@@ -3,28 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class visualSettingsMenu : MonoBehaviour {
+public class visualSettingsMenu : MonoBehaviour
+{
 
-	// OnGUI is called when a UI element is rendered
-	void OnGUI () {
-		// Created with the help of: https://docs.unity3d.com/ScriptReference/UI.Dropdown.AddOptions.html, https://docs.unity3d.com/2018.1/Documentation/ScriptReference/QualitySettings.SetQualityLevel.html, and https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnGUI.html
+	// Start is called when the element is first created
+	void Start () {
+		// Created with the help of https://docs.unity3d.com/ScriptReference/QualitySettings.GetQualityLevel.html
 		
-		// Creates an array of strings and stores all avalible visual quality presets in it
-		string[] names = QualitySettings.names;
-		
-		// Creates variable to store the dropdown being modified, and fetches the DropDown GameObject the script is attached to
-		var m_Dropdown = GetComponent<Dropdown>();
-		
-		m_Dropdown.ClearOptions();
+		// Creates a variable to store the current visual quality level, and then retrives and stores it
+		int currentQuality = QualitySettings.GetQualityLevel();
 
-		Dropdown.OptionData m_NewData =  new Dropdown.OptionData();
+		// Creates a variable to store the dropdown menu this script is attached to, then retrives the component to fill the variable.
+		Dropdown dropdown = GetComponent<Dropdown>();
 		
-		for (int i = 0; i <= names.Length; i++)
-			m_NewData.text = "Option 1";
-			//m_Messages.Add(m_NewData);
-			m_Dropdown.AddOptions("hello");
+		// Sets the value of the dropdown to the current visual quality level
+		dropdown.value = currentQuality;
 		
-		m_Dropdown.AddOptions(names);
 	}
 	
 }
