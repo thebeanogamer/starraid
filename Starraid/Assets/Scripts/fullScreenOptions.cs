@@ -26,6 +26,5 @@ public class fullScreenOptions : MonoBehaviour {
 
 		// Toggles fullscreen
 		Screen.fullScreen = !Screen.fullScreen;
-
 	}
 }
