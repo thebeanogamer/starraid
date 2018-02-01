@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\cameraController.cs" />
+    <Compile Include="Assets\Scripts\fullScreenOptions.cs" />
     <Compile Include="Assets\Scripts\loadSceneOnClick.cs" />
     <Compile Include="Assets\Scripts\playerController.cs" />
     <Compile Include="Assets\Scripts\quitOnClick.cs" />
