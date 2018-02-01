@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering;
 using UnityEngine.UI;
 
 public class fullScreenOptions : MonoBehaviour {
@@ -10,17 +11,21 @@ public class fullScreenOptions : MonoBehaviour {
 		// Created with the help of https://docs.unity3d.com/ScriptReference/QualitySettings.GetQualityLevel.html
 		
 		// Creates a variable to store the current visual quality level, and then retrives and stores it
-		int currentQuality = QualitySettings.GetQualityLevel();
+		bool currentFullScreen = Screen.fullScreen;
 
 		// Creates a variable to store the dropdown menu this script is attached to, then retrives the component to fill the variable.
-		Dropdown dropdown = GetComponent<Dropdown>();
+		Toggle toggle = GetComponent<Toggle>();
 		
 		// Sets the value of the dropdown to the current visual quality level
-		dropdown.value = currentQuality;
+		toggle.isOn = currentFullScreen;
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
+	public void switchFullScreen ()
+	{
+		// Created with the help of https://docs.unity3d.com/ScriptReference/Screen-fullScreen.html
+
+		// Toggles fullscreen
+		Screen.fullScreen = !Screen.fullScreen;
+
 	}
 }
