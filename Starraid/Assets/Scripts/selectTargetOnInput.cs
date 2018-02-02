@@ -23,6 +23,9 @@ public class selectTargetOnInput : MonoBehaviour
             eventSystem.SetSelectedGameObject(selectedObject);
             // Stores that a button has been selected
             buttonSelected = true;
+            
+            // Reports that vertical selection has been enabled
+            debugHandler.addLog("Vertical selection enabled");
         }
     }
     

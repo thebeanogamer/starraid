@@ -9,5 +9,8 @@ public class loadSceneOnClick : MonoBehaviour
     {
         // Tells the scene manager to load whatever scene it has been passed as a variable
         SceneManager.LoadSceneAsync(SceneToLoad);
+        
+        // Reports to the console that the scene has been loaded
+        debugHandler.addLog("Loaded scene: " + SceneToLoad);
     }
 }

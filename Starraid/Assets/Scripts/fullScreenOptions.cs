@@ -18,6 +18,9 @@ public class fullScreenOptions : MonoBehaviour {
 		
 		// Sets the value of the dropdown to the current visual quality level
 		toggle.isOn = currentFullScreen;
+		
+		// Reports that the toggle is ready to the console
+		debugHandler.addLog("Fullscreen toggle ready");
 	}
 	
 	public void switchFullScreen ()
@@ -26,5 +29,8 @@ public class fullScreenOptions : MonoBehaviour {
 
 		// Toggles fullscreen
 		Screen.fullScreen = !Screen.fullScreen;
+		
+		// Reports the change to the console
+		debugHandler.addLog(("Fullscreen toggled to " + Screen.fullScreen));
 	}
 }

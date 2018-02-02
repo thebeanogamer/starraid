@@ -21,5 +21,7 @@ public class resetMainMenu : MonoBehaviour
 		difficultyMenu.SetActive(false);
 		videoMenu.SetActive(false);
 		
+		// Reports that the main menu is ready to the console
+		debugHandler.addLog("Main menu ready");
 	}
 }
