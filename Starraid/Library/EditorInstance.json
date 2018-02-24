@@ -1,4 +1,7 @@
 {
-	"process_id" : 12384,
-	"version" : "2018.1.0b2"
+  "process_id": 17884,
+  "version": "2018.1.0b2",
+  "app_path": "C:/Program Files/Unity 2018.1.0b2/Editor/Unity.exe",
+  "app_contents_path": "C:/Program Files/Unity 2018.1.0b2/Editor/Data",
+  "attach_allowed": "True"
 }

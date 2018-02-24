@@ -25,6 +25,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="aimToMouse.cs" t="Include" />
           <e p="cameraController.cs" t="Include" />
           <e p="debugHandler.cs" t="Include" />
           <e p="fullScreenOptions.cs" t="Include" />
