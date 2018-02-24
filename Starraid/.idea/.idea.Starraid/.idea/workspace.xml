@@ -72,13 +72,13 @@
       <file leaf-file-name="playerController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="420">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
-                <marker date="1519485419359" expanded="false" signature="6:92" ph="..." />
-                <marker date="1519485419359" expanded="true" signature="139:1218" ph="{...}" />
-                <marker date="1519485419359" expanded="true" signature="447:539" ph="{...}" />
-                <marker date="1519485419359" expanded="true" signature="658:1216" ph="{...}" />
+                <marker date="1519485458251" expanded="false" signature="6:92" ph="..." />
+                <marker date="1519485458251" expanded="true" signature="139:1125" ph="{...}" />
+                <marker date="1519485458251" expanded="true" signature="447:539" ph="{...}" />
+                <marker date="1519485458251" expanded="true" signature="658:1123" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -337,12 +337,12 @@
       <workItem from="1517390443202" duration="2517000" />
       <workItem from="1517487080623" duration="8761000" />
       <workItem from="1519483963426" duration="18000" />
-      <workItem from="1519484141526" duration="1193000" />
+      <workItem from="1519484141526" duration="1230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33625000" />
+    <option name="totallyTimeSpent" value="33662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,13 +856,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="420">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <marker date="1519485419359" expanded="false" signature="6:92" ph="..." />
-            <marker date="1519485419359" expanded="true" signature="139:1218" ph="{...}" />
-            <marker date="1519485419359" expanded="true" signature="447:539" ph="{...}" />
-            <marker date="1519485419359" expanded="true" signature="658:1216" ph="{...}" />
+            <marker date="1519485458251" expanded="false" signature="6:92" ph="..." />
+            <marker date="1519485458251" expanded="true" signature="139:1125" ph="{...}" />
+            <marker date="1519485458251" expanded="true" signature="447:539" ph="{...}" />
+            <marker date="1519485458251" expanded="true" signature="658:1123" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -30,8 +30,5 @@ public class playerController : MonoBehaviour
 		// Sets the velocity of the player to the two move values multiplied by the public variable "speed"
 		rb2d.velocity = new Vector2(moveX*Speed,moveY*Speed);
 
-		// Locks the players rotation so they don't face the wrong direction
-		rb2d.rotation = 0;
-
 	}
 }
