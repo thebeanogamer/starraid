@@ -31,4 +31,17 @@ public class playerController : MonoBehaviour
 		rb2d.velocity = new Vector2(moveX*Speed,moveY*Speed);
 
 	}
+	
+	// Update is called once per frame
+	void Update() 
+	{
+		// Calculates the mouse position
+		Vector3 dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
+		
+		// Calculates the position for the player to be rotated to
+		float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+		
+		// Rotates the player to the calculated rotation
+		transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+	}
 }
