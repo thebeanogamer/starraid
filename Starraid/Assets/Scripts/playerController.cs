@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering;
 
 public class playerController : MonoBehaviour
 {
@@ -10,12 +11,18 @@ public class playerController : MonoBehaviour
 	private Rigidbody2D rb2d;
 	// Create public variable which can be used to set the speed at which the player moves
 	public float Speed;
+	// Create public variable to link to the bullet prefab
+	public GameObject bulletPrefab;
+	// Create private variable which stores the location of the player for bullet creation
+	private Transform bulletSpawn;
 
 	// Use this for initialization, this is called when the object is loaded
 	void Start ()
 	{
 		// Binds the player's rigidbody to a variable
 		rb2d = GetComponent<Rigidbody2D>();
+
+		bulletSpawn = GetComponent<Transform>();
 	}
 	
 	// FixedUpdate is called multiple times per frame, and is used for objects effected by physics
@@ -43,5 +50,14 @@ public class playerController : MonoBehaviour
 		
 		// Rotates the player to the calculated rotation
 		transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+		if (Input.GetAxisRaw("Fire") == 1)
+		{
+			// Create the Bullet from the Bullet prefab, placing it under the player
+			Instantiate (
+				bulletPrefab,
+				bulletSpawn.position + new Vector3(0,0,1),
+				bulletSpawn.rotation);
+		}
 	}
 }
