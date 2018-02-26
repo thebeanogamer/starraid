@@ -29,8 +29,8 @@
       <file leaf-file-name="playerController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="55" column="84" lean-forward="false" selection-start-line="55" selection-start-column="84" selection-end-line="55" selection-end-column="84" />
+            <state relative-caret-position="38">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="81" />
               <folding>
                 <marker date="1519575759536" expanded="false" signature="6:134" ph="..." />
                 <marker date="1519575759536" expanded="true" signature="181:2082" ph="{...}" />
@@ -46,14 +46,14 @@
       <file leaf-file-name="bulletController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/bulletController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="513">
+              <caret line="30" column="79" lean-forward="true" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
               <folding>
-                <marker date="1519573224646" expanded="false" signature="6:102" ph="..." />
-                <marker date="1519573224646" expanded="true" signature="149:536" ph="{...}" />
-                <marker date="1519573224646" expanded="true" signature="284:410" ph="{...}" />
-                <marker date="1519573224646" expanded="true" signature="452:534" ph="{...}" />
-                <marker date="1519573224646" expanded="true" signature="498:530" ph="{...}" />
+                <marker date="1519637461280" expanded="false" signature="6:102" ph="..." />
+                <marker date="1519637461280" expanded="true" signature="149:1118" ph="{...}" />
+                <marker date="1519637461280" expanded="true" signature="466:770" ph="{...}" />
+                <marker date="1519637461280" expanded="true" signature="873:1116" ph="{...}" />
+                <marker date="1519637461280" expanded="true" signature="993:1112" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="CompletePlayerController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../../../../Public/Documents/Unity Projects/UFO Tutorial/UFO Tutorial/Assets/_Completed-Assets/Scripts/CompletePlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
+            <state relative-caret-position="969">
               <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="52" />
               <folding />
             </state>
@@ -76,7 +76,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/bulletController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/073C8BAF-7D4D-4AE1-8C33-213D2DA55D73/4b/7316b001/QualitySettings.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/073C8BAF-7D4D-4AE1-8C33-213D2DA55D73/b0/0b8b031d/SceneManager.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../../../../../../Public/Documents/Unity Projects/UFO Tutorial/UFO Tutorial/Assets/_Completed-Assets/Scripts/CompletePlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Public/Documents/Unity Projects/UFO Tutorial/UFO Tutorial/Assets/_Completed-Assets/Scripts/CompletePlayerController.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/fullScreenOptions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/debugHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/quitOnClick.cs" root0="FORCE_HIGHLIGHTING" />
@@ -102,8 +102,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/aimToMouse.cs" />
         <option value="$USER_HOME$/Downloads/build.sh" />
         <option value="$PROJECT_DIR$/Assets/Scripts/selectTargetOnInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/bulletController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/playerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/bulletController.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +113,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="952" />
     <option name="width" value="976" />
     <option name="height" value="523" />
@@ -219,12 +219,13 @@
       <workItem from="1519561827546" duration="404000" />
       <workItem from="1519563099327" duration="1569000" />
       <workItem from="1519565702135" duration="3748000" />
-      <workItem from="1519571520897" duration="2114000" />
+      <workItem from="1519571520897" duration="2707000" />
+      <workItem from="1519636745929" duration="843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42225000" />
+    <option name="totallyTimeSpent" value="43661000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,7 +237,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -247,7 +248,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08742005" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11117078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -621,7 +622,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../../../Public/Documents/Unity Projects/UFO Tutorial/UFO Tutorial/Assets/_Completed-Assets/Scripts/CompletePlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
+        <state relative-caret-position="969">
           <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="52" />
           <folding />
         </state>
@@ -629,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="55" column="84" lean-forward="false" selection-start-line="55" selection-start-column="84" selection-end-line="55" selection-end-column="84" />
+        <state relative-caret-position="38">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="81" />
           <folding>
             <marker date="1519575759536" expanded="false" signature="6:134" ph="..." />
             <marker date="1519575759536" expanded="true" signature="181:2082" ph="{...}" />
@@ -644,14 +645,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/bulletController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="513">
+          <caret line="30" column="79" lean-forward="true" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
           <folding>
-            <marker date="1519573224646" expanded="false" signature="6:102" ph="..." />
-            <marker date="1519573224646" expanded="true" signature="149:536" ph="{...}" />
-            <marker date="1519573224646" expanded="true" signature="284:410" ph="{...}" />
-            <marker date="1519573224646" expanded="true" signature="452:534" ph="{...}" />
-            <marker date="1519573224646" expanded="true" signature="498:530" ph="{...}" />
+            <marker date="1519637461280" expanded="false" signature="6:102" ph="..." />
+            <marker date="1519637461280" expanded="true" signature="149:1118" ph="{...}" />
+            <marker date="1519637461280" expanded="true" signature="466:770" ph="{...}" />
+            <marker date="1519637461280" expanded="true" signature="873:1116" ph="{...}" />
+            <marker date="1519637461280" expanded="true" signature="993:1112" ph="{...}" />
           </folding>
         </state>
       </provider>
