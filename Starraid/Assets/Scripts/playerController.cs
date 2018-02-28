@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering;
 
@@ -15,6 +16,10 @@ public class playerController : MonoBehaviour
 	public GameObject bulletPrefab;
 	// Create private variable which stores the location of the player for bullet creation
 	private Transform bulletSpawn;
+	// Create public variable to store ammo carried by player
+	public int Ammo;
+	// Create private variable to track if the player is able to fire
+	public bool canFire = true;
 
 	// Use this for initialization, this is called when the object is loaded
 	void Start ()
@@ -53,11 +58,18 @@ public class playerController : MonoBehaviour
 
 		if (Input.GetAxisRaw("Fire") == 1)
 		{
-			// Create the Bullet from the Bullet prefab, placing it under the player
-			Instantiate (
-				bulletPrefab,
-				bulletSpawn.position + new Vector3(0,0,1),
-				bulletSpawn.rotation);
+			if (Ammo != 0 && canFire == true)
+			{
+				// Create the Bullet from the Bullet prefab, placing it under the player
+				Instantiate(
+					bulletPrefab,
+					bulletSpawn.position + new Vector3(0, 0, 1),
+					bulletSpawn.rotation);
+				Ammo -= 1;
+				canFire = false;
+				Thread.Sleep(100);
+				canFire = true;
+			}
 		}
 	}
 }
