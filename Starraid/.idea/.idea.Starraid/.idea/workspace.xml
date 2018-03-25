@@ -74,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enemyController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="enemyController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/enemyController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+            <state relative-caret-position="315">
+              <caret line="21" column="9" lean-forward="true" selection-end-line="38" />
               <folding>
                 <marker date="1521978856266" expanded="true" signature="6:78" ph="..." />
                 <marker date="1521978856266" expanded="true" signature="124:791" ph="{...}" />
@@ -92,12 +92,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fullScreenOptions.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fullScreenOptions.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/fullScreenOptions.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="360">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
-                <marker date="1517497152755" expanded="true" signature="6:142" ph="..." />
+                <marker date="1517497152755" expanded="false" signature="6:142" ph="..." />
                 <marker date="1517497152755" expanded="true" signature="191:1206" ph="{...}" />
                 <marker date="1517497152755" expanded="true" signature="241:889" ph="{...}" />
                 <marker date="1517497152755" expanded="true" signature="245:452" ph="/* Created with the help of https://docs.unity3d.com/ScriptReference/QualitySettings.GetQualityLevel.html ... */" />
@@ -181,7 +182,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="bullet&#9;null&#9;null&#10;pla&#9;FILE&#9;file://C:/Users/thebe/Documents/A-Level Computing/Repos/starraid/Starraid/Assets/Scripts/playerController.cs&#10;vis&#9;FILE&#9;file://C:/Users/thebe/Documents/A-Level Computing/Repos/starraid/Starraid/Assets/Scripts/visualSettingsMenu.cs&#10;res&#9;FILE&#9;file://C:/Users/thebe/Documents/A-Level Computing/Repos/starraid/Starraid/Assets/Scripts/resetMainMenu.cs" />
+    <property name="SearchEverywhereHistoryKey" value="full&#9;null&#9;null&#10;bullet&#9;null&#9;null&#10;pla&#9;FILE&#9;file://C:/Users/thebe/Documents/A-Level Computing/Repos/starraid/Starraid/Assets/Scripts/playerController.cs&#10;vis&#9;FILE&#9;file://C:/Users/thebe/Documents/A-Level Computing/Repos/starraid/Starraid/Assets/Scripts/visualSettingsMenu.cs&#10;res&#9;FILE&#9;file://C:/Users/thebe/Documents/A-Level Computing/Repos/starraid/Starraid/Assets/Scripts/resetMainMenu.cs" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="C#" />
     <property name="do_not_show_unity_auto_save_notification" value="true" />
@@ -251,12 +252,12 @@
       <workItem from="1520705390911" duration="641000" />
       <workItem from="1521916411203" duration="256000" />
       <workItem from="1521916710140" duration="1785000" />
-      <workItem from="1521977119644" duration="1723000" />
+      <workItem from="1521977119644" duration="3086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52698000" />
+    <option name="totallyTimeSpent" value="54061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -273,12 +274,12 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295583" />
       <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32921588" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32842582" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32768363" />
       <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.32909605" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295583" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12147651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12147651" />
       <window_info anchor="bottom" id="Xaml Preview" order="8" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="9" />
@@ -365,7 +366,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <marker date="1517497152755" expanded="true" signature="6:142" ph="..." />
+            <marker date="1517497152755" expanded="false" signature="6:142" ph="..." />
             <marker date="1517497152755" expanded="true" signature="191:1206" ph="{...}" />
             <marker date="1517497152755" expanded="true" signature="241:889" ph="{...}" />
             <marker date="1517497152755" expanded="true" signature="245:452" ph="/* Created with the help of https://docs.unity3d.com/ScriptReference/QualitySettings.GetQualityLevel.html ... */" />
@@ -663,20 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/fullScreenOptions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1517497152755" expanded="true" signature="6:142" ph="..." />
-            <marker date="1517497152755" expanded="true" signature="191:1206" ph="{...}" />
-            <marker date="1517497152755" expanded="true" signature="241:889" ph="{...}" />
-            <marker date="1517497152755" expanded="true" signature="245:452" ph="/* Created with the help of https://docs.unity3d.com/ScriptReference/QualitySettings.GetQualityLevel.html ... */" />
-            <marker date="1517497152755" expanded="true" signature="924:1204" ph="{...}" />
-            <marker date="1517497152755" expanded="true" signature="930:1046" ph="/* Created with the help of https://docs.unity3d.com/ScriptReference/Screen-fullScreen.html ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -721,8 +708,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/enemyController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+        <state relative-caret-position="315">
+          <caret line="21" column="9" lean-forward="true" selection-end-line="38" />
           <folding>
             <marker date="1521978856266" expanded="true" signature="6:78" ph="..." />
             <marker date="1521978856266" expanded="true" signature="124:791" ph="{...}" />
@@ -731,6 +718,21 @@
             <marker date="1521978856266" expanded="true" signature="425:522" ph="{...}" />
             <marker date="1521978856266" expanded="true" signature="612:789" ph="{...}" />
             <marker date="1521978856266" expanded="true" signature="704:786" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/fullScreenOptions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <marker date="1517497152755" expanded="false" signature="6:142" ph="..." />
+            <marker date="1517497152755" expanded="true" signature="191:1206" ph="{...}" />
+            <marker date="1517497152755" expanded="true" signature="241:889" ph="{...}" />
+            <marker date="1517497152755" expanded="true" signature="245:452" ph="/* Created with the help of https://docs.unity3d.com/ScriptReference/QualitySettings.GetQualityLevel.html ... */" />
+            <marker date="1517497152755" expanded="true" signature="924:1204" ph="{...}" />
+            <marker date="1517497152755" expanded="true" signature="930:1046" ph="/* Created with the help of https://docs.unity3d.com/ScriptReference/Screen-fullScreen.html ... */" />
           </folding>
         </state>
       </provider>
