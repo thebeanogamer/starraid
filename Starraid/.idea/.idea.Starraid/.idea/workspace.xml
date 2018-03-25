@@ -29,8 +29,8 @@
       <file leaf-file-name="playerController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+            <state relative-caret-position="450">
+              <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
               <folding>
                 <marker date="1519820807049" expanded="false" signature="6:158" ph="..." />
                 <marker date="1519820807049" expanded="true" signature="205:2411" ph="{...}" />
@@ -58,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bulletController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bulletController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/bulletController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -69,6 +69,24 @@
                 <marker date="1519637461280" expanded="true" signature="466:770" ph="{...}" />
                 <marker date="1519637461280" expanded="true" signature="873:1116" ph="{...}" />
                 <marker date="1519637461280" expanded="true" signature="993:1112" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enemyController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/enemyController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+              <folding>
+                <marker date="1521977752359" expanded="false" signature="6:78" ph="..." />
+                <marker date="1521977752359" expanded="true" signature="124:485" ph="{...}" />
+                <marker date="1521977752359" expanded="true" signature="198:220" ph="{...}" />
+                <marker date="1521977752359" expanded="true" signature="275:330" ph="{...}" />
+                <marker date="1521977752359" expanded="true" signature="295:327" ph="{...}" />
+                <marker date="1521977752359" expanded="true" signature="375:483" ph="{...}" />
+                <marker date="1521977752359" expanded="true" signature="455:480" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -95,6 +113,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/loadSceneOnClick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/cameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/enemyController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/debugHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/bulletController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/resetMainMenu.cs" root0="FORCE_HIGHLIGHTING" />
@@ -125,6 +144,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/selectTargetOnInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/bulletController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/playerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/enemyController.cs" />
       </list>
     </option>
   </component>
@@ -134,9 +154,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
-    <option name="width" value="978" />
+    <option name="width" value="979" />
     <option name="height" value="525" />
   </component>
   <component name="ProjectView">
@@ -231,11 +251,12 @@
       <workItem from="1520705390911" duration="641000" />
       <workItem from="1521916411203" duration="256000" />
       <workItem from="1521916710140" duration="1785000" />
+      <workItem from="1521977119644" duration="992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50975000" />
+    <option name="totallyTimeSpent" value="51967000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,7 +268,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295583" />
       <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32921588" />
@@ -256,10 +278,10 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295583" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12013423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12147651" />
       <window_info anchor="bottom" id="Xaml Preview" order="8" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Unity" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997735" />
@@ -268,22 +290,22 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" weight="0.32975295" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="NuGet" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.083333336" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Unit Tests" order="8" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -291,7 +313,7 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32963374" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32946146" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -655,18 +677,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/bulletController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        <state relative-caret-position="405">
+          <caret line="30" column="79" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
           <folding>
-            <marker date="1519820807049" expanded="false" signature="6:158" ph="..." />
-            <marker date="1519820807049" expanded="true" signature="205:2411" ph="{...}" />
-            <marker date="1519820807049" expanded="true" signature="895:1031" ph="{...}" />
-            <marker date="1519820807049" expanded="true" signature="1150:1615" ph="{...}" />
-            <marker date="1519820807049" expanded="true" signature="1669:2409" ph="{...}" />
-            <marker date="1519820807049" expanded="true" signature="2081:2406" ph="{...}" />
-            <marker date="1519820807049" expanded="true" signature="2122:2402" ph="{...}" />
+            <marker date="1519637461280" expanded="false" signature="6:102" ph="..." />
+            <marker date="1519637461280" expanded="true" signature="149:1118" ph="{...}" />
+            <marker date="1519637461280" expanded="true" signature="466:770" ph="{...}" />
+            <marker date="1519637461280" expanded="true" signature="873:1116" ph="{...}" />
+            <marker date="1519637461280" expanded="true" signature="993:1112" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -683,16 +703,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/bulletController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" column="79" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
+        <state relative-caret-position="450">
+          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
           <folding>
-            <marker date="1519637461280" expanded="false" signature="6:102" ph="..." />
-            <marker date="1519637461280" expanded="true" signature="149:1118" ph="{...}" />
-            <marker date="1519637461280" expanded="true" signature="466:770" ph="{...}" />
-            <marker date="1519637461280" expanded="true" signature="873:1116" ph="{...}" />
-            <marker date="1519637461280" expanded="true" signature="993:1112" ph="{...}" />
+            <marker date="1519820807049" expanded="false" signature="6:158" ph="..." />
+            <marker date="1519820807049" expanded="true" signature="205:2411" ph="{...}" />
+            <marker date="1519820807049" expanded="true" signature="895:1031" ph="{...}" />
+            <marker date="1519820807049" expanded="true" signature="1150:1615" ph="{...}" />
+            <marker date="1519820807049" expanded="true" signature="1669:2409" ph="{...}" />
+            <marker date="1519820807049" expanded="true" signature="2081:2406" ph="{...}" />
+            <marker date="1519820807049" expanded="true" signature="2122:2402" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/enemyController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <marker date="1521977752359" expanded="false" signature="6:78" ph="..." />
+            <marker date="1521977752359" expanded="true" signature="124:485" ph="{...}" />
+            <marker date="1521977752359" expanded="true" signature="198:220" ph="{...}" />
+            <marker date="1521977752359" expanded="true" signature="275:330" ph="{...}" />
+            <marker date="1521977752359" expanded="true" signature="295:327" ph="{...}" />
+            <marker date="1521977752359" expanded="true" signature="375:483" ph="{...}" />
+            <marker date="1521977752359" expanded="true" signature="455:480" ph="{...}" />
           </folding>
         </state>
       </provider>

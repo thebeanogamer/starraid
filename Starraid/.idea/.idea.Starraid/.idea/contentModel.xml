@@ -20,6 +20,7 @@
           <e p="bulletController.cs" t="Include" />
           <e p="cameraController.cs" t="Include" />
           <e p="debugHandler.cs" t="Include" />
+          <e p="enemyController.cs" t="Include" />
           <e p="fullScreenOptions.cs" t="Include" />
           <e p="loadSceneOnClick.cs" t="Include" />
           <e p="playerController.cs" t="Include" />
