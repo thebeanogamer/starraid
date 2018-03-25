@@ -28,8 +28,8 @@ public class bulletController : MonoBehaviour
 	// Triggeres when the bullet collides with another collider
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		// Checks if the object the bullet has collided with has the tag "Wall"
-		if (other.gameObject.CompareTag("Wall"))
+		// Checks if the object the bullet has collided with has the tag "Wall" or "Enemy"
+		if (other.gameObject.CompareTag("Wall") || other.gameObject.CompareTag("Enemy")) 
 		{
 			// If the object that the bullet collides with is a wall, the bullet deletes itself
 			Destroy(gameObject);

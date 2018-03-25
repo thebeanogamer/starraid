@@ -58,17 +58,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bulletController.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bulletController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/bulletController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="30" column="79" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
+            <state relative-caret-position="420">
+              <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
               <folding>
-                <marker date="1519637461280" expanded="false" signature="6:102" ph="..." />
-                <marker date="1519637461280" expanded="true" signature="149:1118" ph="{...}" />
-                <marker date="1519637461280" expanded="true" signature="466:770" ph="{...}" />
-                <marker date="1519637461280" expanded="true" signature="873:1116" ph="{...}" />
-                <marker date="1519637461280" expanded="true" signature="993:1112" ph="{...}" />
+                <marker date="1522006020915" expanded="false" signature="6:102" ph="..." />
+                <marker date="1522006020915" expanded="true" signature="149:1121" ph="{...}" />
+                <marker date="1522006020915" expanded="true" signature="466:770" ph="{...}" />
+                <marker date="1522006020915" expanded="true" signature="873:1119" ph="{...}" />
+                <marker date="1522006020915" expanded="true" signature="996:1115" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -77,8 +77,8 @@
       <file leaf-file-name="enemyController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/enemyController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="9" lean-forward="true" selection-end-line="38" />
+            <state>
+              <caret selection-end-line="38" />
               <folding>
                 <marker date="1521978856266" expanded="true" signature="6:78" ph="..." />
                 <marker date="1521978856266" expanded="true" signature="124:791" ph="{...}" />
@@ -92,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fullScreenOptions.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fullScreenOptions.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/fullScreenOptions.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state>
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding>
                 <marker date="1517497152755" expanded="false" signature="6:142" ph="..." />
                 <marker date="1517497152755" expanded="true" signature="191:1206" ph="{...}" />
@@ -143,9 +143,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/aimToMouse.cs" />
         <option value="$USER_HOME$/Downloads/build.sh" />
         <option value="$PROJECT_DIR$/Assets/Scripts/selectTargetOnInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/bulletController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/playerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/enemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/bulletController.cs" />
       </list>
     </option>
   </component>
@@ -252,12 +252,12 @@
       <workItem from="1520705390911" duration="641000" />
       <workItem from="1521916411203" duration="256000" />
       <workItem from="1521916710140" duration="1785000" />
-      <workItem from="1521977119644" duration="3086000" />
+      <workItem from="1521977119644" duration="3244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54061000" />
+    <option name="totallyTimeSpent" value="54219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,11 +353,11 @@
         <state relative-caret-position="405">
           <caret line="30" column="79" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
           <folding>
-            <marker date="1519637461280" expanded="false" signature="6:102" ph="..." />
-            <marker date="1519637461280" expanded="true" signature="149:1118" ph="{...}" />
-            <marker date="1519637461280" expanded="true" signature="466:770" ph="{...}" />
-            <marker date="1519637461280" expanded="true" signature="873:1116" ph="{...}" />
-            <marker date="1519637461280" expanded="true" signature="993:1112" ph="{...}" />
+            <marker date="1522006020915" expanded="false" signature="6:102" ph="..." />
+            <marker date="1522006020915" expanded="true" signature="149:1121" ph="{...}" />
+            <marker date="1522006020915" expanded="true" signature="466:770" ph="{...}" />
+            <marker date="1522006020915" expanded="true" signature="873:1119" ph="{...}" />
+            <marker date="1522006020915" expanded="true" signature="996:1115" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -692,24 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/bulletController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" column="79" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
-          <folding>
-            <marker date="1519637461280" expanded="false" signature="6:102" ph="..." />
-            <marker date="1519637461280" expanded="true" signature="149:1118" ph="{...}" />
-            <marker date="1519637461280" expanded="true" signature="466:770" ph="{...}" />
-            <marker date="1519637461280" expanded="true" signature="873:1116" ph="{...}" />
-            <marker date="1519637461280" expanded="true" signature="993:1112" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/enemyController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" lean-forward="true" selection-end-line="38" />
+        <state>
+          <caret selection-end-line="38" />
           <folding>
             <marker date="1521978856266" expanded="true" signature="6:78" ph="..." />
             <marker date="1521978856266" expanded="true" signature="124:791" ph="{...}" />
@@ -724,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/fullScreenOptions.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state>
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding>
             <marker date="1517497152755" expanded="false" signature="6:142" ph="..." />
             <marker date="1517497152755" expanded="true" signature="191:1206" ph="{...}" />
@@ -733,6 +719,20 @@
             <marker date="1517497152755" expanded="true" signature="245:452" ph="/* Created with the help of https://docs.unity3d.com/ScriptReference/QualitySettings.GetQualityLevel.html ... */" />
             <marker date="1517497152755" expanded="true" signature="924:1204" ph="{...}" />
             <marker date="1517497152755" expanded="true" signature="930:1046" ph="/* Created with the help of https://docs.unity3d.com/ScriptReference/Screen-fullScreen.html ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/bulletController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <marker date="1522006020915" expanded="false" signature="6:102" ph="..." />
+            <marker date="1522006020915" expanded="true" signature="149:1121" ph="{...}" />
+            <marker date="1522006020915" expanded="true" signature="466:770" ph="{...}" />
+            <marker date="1522006020915" expanded="true" signature="873:1119" ph="{...}" />
+            <marker date="1522006020915" expanded="true" signature="996:1115" ph="{...}" />
           </folding>
         </state>
       </provider>
