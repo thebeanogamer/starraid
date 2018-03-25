@@ -69,7 +69,6 @@
     <None Include="Assets\Sprites\Player\Player Sprite Placeholder.txt" />
     <None Include="Assets\Prefabs\Friendlies\Freindly Prefab Placeholder.txt" />
     <None Include="Assets\Sprites\Friendlies\Freindly Sprite Placeholder.txt" />
-    <None Include="Assets\Prefabs\Enemies\Enemies Prefab Placeholder.txt" />
     <None Include="Assets\Sprites\Enemies\Enemy Sprite Placeholder.txt" />
     <None Include="Assets\Sounds\SFX\Enviroment\Enviroment SFX Placeholder.txt" />
     <Reference Include="UnityEditor.StandardEvents">
